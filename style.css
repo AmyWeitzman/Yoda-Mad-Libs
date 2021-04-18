@@ -1,0 +1,93 @@
+body {
+  background-image: url('./space_bg.jpg');
+  font-family: Arial, Helvetica, sans-serif;
+  color: #9ed5a3;
+  padding: 50px;
+}
+
+#app-container {
+  text-align: center;
+}
+
+#site-title {
+  font-size: 50px;
+  margin-bottom: 50px;
+  margin-top: 0;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.295);
+  border-radius: 20px;
+  width: 45%;
+  border: 5px solid #9ed5a3;
+  height: 500px;
+}
+
+#input-container {
+  float: left;
+}
+
+#story-selector {
+  margin-top: 30px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+select {
+  font-size: 1.2rem;
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#story-container {
+  float: right;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  outline: none;
+  font-weight: bold;
+  border: none;
+  font-size: 1.2rem;
+  padding: 10px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 1px 2px 4px white;
+}
+
+#story-input {
+  margin: 50px;
+  margin-top: 30px;
+  padding-left: 30px;
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+label {
+  margin-right: 10px;
+}
+
+input {
+  font-size: 1.2rem;
+  padding: 5px;
+}
+
+#story-text {
+    padding: 50px;
+    padding-top: 20px;
+    font-size: 1.5rem;
+    text-align: left;
+    margin: 0;
+    line-height: 1.5;
+}
+
+#yoda-img {
+  margin-top: 30px;
+  visibility: hidden;
+}

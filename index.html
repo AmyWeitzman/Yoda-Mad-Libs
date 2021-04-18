@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Yoda Mad Libs</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div id="app-container">
+      <h1 id="site-title">Yoda Mad Libs</h1>
+      <div id="input-container" class="container">
+        <div id="story-selector">
+          <form onsubmit="return selectStory()">
+            <label for="story-option">Choose a story:</label>
+            <select name="story-options" id="story-option">
+              <option value="fav-food">Favorite Food</option>
+              <option value="vacation">Vacation</option>
+              <option value="i-spy">I Spy</option>
+            </select>
+            <input type="submit" value="Let's Go" id="get-story-btn" class="btn">
+          </form>
+        </div>
+        <div id="story-input">
+
+        </div>
+      </div>
+      <div id="story-container" class="container">
+        <img src="./yoda_img.png" alt="Picture of Yoda" id="yoda-img">
+        <p id="story-text"></p>
+      </div>
+    </div>
+  </body>
+</html>
